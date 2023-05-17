@@ -1,0 +1,117 @@
+*
+{
+    margin:0;
+    padding:0;
+     
+}
+
+
+/* Beginning of header styles  */
+header
+{
+    background-color: lightcoral;
+    height: 20vh;
+    width: 100vw;
+}
+
+#first_header
+{
+    height:12vh;
+    background-color:lightgreen;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+#first_header button{
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+
+#first_header input{
+    width: 45%;
+    height: 50px;
+}
+
+
+#second_header
+{
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    height:8vh;
+    width: 100%;
+}
+#second_header li
+{
+    display:inline;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#second_header li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+header #first_header img{
+    height: 100px;
+    width: 150px;
+
+}
+
+/* End of header styles */
+
+/* Start on the main*/
+section
+{
+  background-color: lightblue;
+  width:100%;
+  padding:20px;
+}
+.card
+{
+ background-color: white;
+ color:black;
+ height:500px;
+ width:20%;
+ padding:10px;
+}
+
+.card_header
+{
+    height:10%;
+}
+
+.card_body
+{
+    height:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card_body div
+{
+  height:45%;
+  background-color: lightcoral;
+  width:45%;
+  padding: 2px;
+}
+
+.card_body div img
+{
+  width: 99%;
+  height: 90%;
+}
+
+.card_footer
+{
+    height:10%;
+}
+
+/* End of the main */
