@@ -287,7 +287,7 @@ footer hr{
 #footer-copyright p a{
     color: white;
 }
-#Best_seller
+.Best_seller
 {
     background-color: white;
     padding:10px;
@@ -295,16 +295,16 @@ footer hr{
     margin-left: auto;
     margin-right: auto;
 }
-#animations img
+
+.animations img
 {
   height:250px;
   width:20%;
 }
-#animations
+.animations
 {
-    display: flex;
+    display: flex;  
 }
-
 
 
 
