@@ -287,7 +287,23 @@ footer hr{
 #footer-copyright p a{
     color: white;
 }
-
+#Best_seller
+{
+    background-color: white;
+    padding:10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#animations img
+{
+  height:250px;
+  width:20%;
+}
+#animations
+{
+    display: flex;
+}
 
 
 
