@@ -1,8 +1,7 @@
 *
 {
     margin:0;
-    padding:0;
-     
+    padding:0;     
 }
 body
 {
@@ -304,6 +303,41 @@ footer hr{
 .animations
 {
     display: flex;  
+}
+.shopper
+{
+    width:90%;
+    margin-right: auto;
+    margin-left:auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.shopper_card
+{
+    background-color: white;
+    width:24%;
+    height:500px;
+    padding:10px;
+    border-radius: 10px;
+}
+.shopper_card h5 small b
+{
+    text-decoration: line-through;
+}
+.shopper_card h6
+{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.shopper_card img
+{
+    width:100%;
+    height:85%;
+}
+#shopper_card1_image
+{
+   height:60%;
 }
 
 
